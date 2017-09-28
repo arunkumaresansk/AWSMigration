@@ -13,7 +13,7 @@ public class TestClass1 {
 
 	@Test
 	public void testMethod2() {
-		assertTrue(false);
+		assertTrue(true);
 	}
 
 	@Test
@@ -28,17 +28,17 @@ public class TestClass1 {
 
 	@Test
 	public void testMethod5() {
-
+		assertTrue(false);
 	}
 
 	@Test
 	public void testMethod6() {
-
+		assertTrue(false);
 	}
 
 	@Test
 	public void testMethod7() {
-
+		assertTrue(false);
 	}
 
 	@Test
