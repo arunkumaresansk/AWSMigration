@@ -39,4 +39,9 @@ public class TestClass2 {
 		
 	}
 	
+	@Test
+	public void testMethod8(){
+		
+	}
+	
 }

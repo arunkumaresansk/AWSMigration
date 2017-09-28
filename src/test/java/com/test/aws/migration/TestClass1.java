@@ -7,17 +7,17 @@ import org.testng.annotations.Test;
 public class TestClass1 {
 
 	@Test
-	public void testMethod1Class1() {
+	public void testMethod1() {
 
 	}
 
 	@Test
-	public void testMethod2Class1() {
+	public void testMethod2() {
 		assertTrue(true);
 	}
 
 	@Test
-	public void testMethod3Class1() {
+	public void testMethod3() {
 		privateMethod();
 	}
 
@@ -55,6 +55,7 @@ public class TestClass1 {
 	public void testMethod10(){
 		
 	}
+	
 	private void privateMethod() {
 		System.out.println("Call to private method");
 	}
