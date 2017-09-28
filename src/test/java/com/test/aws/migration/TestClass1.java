@@ -11,7 +11,7 @@ public class TestClass1 {
 
 	}
 
-	@Test
+	/*@Test
 	public void testMethod2() {
 		assertTrue(true);
 	}
@@ -39,7 +39,7 @@ public class TestClass1 {
 	@Test
 	public void testMethod7() {
 		assertTrue(false);
-	}
+	}*/
 
 	@Test
 	public void testMethod8(){
