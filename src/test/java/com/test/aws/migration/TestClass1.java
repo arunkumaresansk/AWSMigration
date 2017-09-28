@@ -13,11 +13,11 @@ public class TestClass1 {
 
 	@Test
 	public void testMethod2() {
-		assertTrue(true);
+		assertTrue(false);
 	}
 
 	@Test
-	public void testMethod3() {
+	public void testMethod3() throws Exception {
 		privateMethod();
 	}
 
@@ -56,8 +56,9 @@ public class TestClass1 {
 		
 	}
 	
-	private void privateMethod() {
+	private void privateMethod() throws Exception {
 		System.out.println("Call to private method");
+		throw new Exception("Random Failure");
 	}
 
 }
