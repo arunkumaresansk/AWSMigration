@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="SuiteAll" verbose="1">
-    <test name="AllTests" preserve-order="true">
-        <classes>
-            <class name="com.test.aws.migration.TestClass1"/>
-            <class name="com.test.aws.migration.TestClass2"/>
-        </classes>
-    </test>
-</suite>
