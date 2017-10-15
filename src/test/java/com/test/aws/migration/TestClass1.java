@@ -23,7 +23,7 @@ public class TestClass1 {
 
 	@Test
 	public void testMethod4() {
-
+		assertTrue(false);
 	}
 
 	@Test
@@ -36,9 +36,9 @@ public class TestClass1 {
 		assertTrue(false);
 	}
 
-	@Test
+	@Test(dependsOnMethods={"testMethod6"})
 	public void testMethod7() {
-		assertTrue(false);
+		
 	}
 
 	@Test
@@ -46,7 +46,7 @@ public class TestClass1 {
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void testMethod9(){
 		
 	}
